@@ -24,7 +24,7 @@ UKF::UKF()
   n_aug_ = 7;
 
   //* Sigma point spreading parameter
-  lambda_ = 3 - n_aug_;
+  lambda_ = 0;
 
 
 
